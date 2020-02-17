@@ -43,7 +43,8 @@
         return (alas * tinggi)/2;
     }
     public int hitungKeliling(){
-        return alas+alas+alas;
+        double kel = (alas * alas)+(tinggi*tinggi);
+        return (int) (alas + tinggi + Math.sqrt(kel));
     }
 5.   sgArray[0] =  new Segitiga(10,4);
        sgArray[1] =  new Segitiga(20,10);
