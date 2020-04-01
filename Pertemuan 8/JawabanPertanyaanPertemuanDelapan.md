@@ -63,4 +63,4 @@ default : return 0;
 5^2+8/(6-3)
 Postfix : 52^863-/+
 3. Karena tanda kurung tidak dideklarasikan pada method presedence. Dan pada proses penulisan notasi postfix tanda '(' masuk dalam stack dan apa bila sudah ada tanda ')' maka tanda '(' hanya perlu di-pop tidak perlu dimasukkan ke postfix.
-4. 
+4. Program akan tetap berjalan, tetapi operator @ dan # tidak terbaca oleh program, karena kedua operator tersebut belum dideklarasikan dalam program.
